@@ -1,0 +1,57 @@
+nav {
+    background-color: chocolate;
+    color: cornsilk;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: cornsilk;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: block;
+    border-bottom: 1px solid cornsilk;
+    text-align: right;
+}
+
+nav a.active {
+    padding: 1em 1.3em;
+    border-left: .7em solid blue;
+    border-right: .7em solid blue;
+    box-sizing: border-box;
+
+}
+
+#menuSwitcher:checked~nav {
+    right: 90vw;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    padding: 0;
+    transition: left 0.9s ease-in-out;
+}
+
+.container img {
+    max-width: 100vw;
+}
+
+.container {
+    padding-left: 10vw;
+}
+
+.container h1,
+.container p {
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+}
