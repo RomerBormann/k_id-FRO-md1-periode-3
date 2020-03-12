@@ -26,7 +26,7 @@ label {
         width: 3.5em;
         height: 1.6em;
         border-radius: 2em;
-        background-color: green;
+        background-color: tomato;
         outline: none;
         transition: background-color .2s linear;
     }
@@ -46,7 +46,7 @@ label {
     }
 
     .switch:checked {
-        background-color: tomato;
+        background-color: green;
     }
 
     .switch:disabled {
